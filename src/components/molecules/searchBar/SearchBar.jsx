@@ -11,7 +11,7 @@ const handelInput = (evento)=>{
 
   return (
     <div className={style.searchBarContainer}>
-        <input onChange={handelInput} type="text" placeholder='ingrese el ID del personaje' />
+        <input onChange={handelInput} type="text" placeholder='ingrese el ID del personaje' required/>
         <button onClick={()=> onSearch(idPersonaje)} > Search
         </button>
     </div>
