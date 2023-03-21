@@ -1,0 +1,35 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+  padding: 20px;
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button button{
+    margin: 2px;
+    padding: 10px;
+    background-color: rgb(233, 189, 21);
+    border: none;
+    font-weight: bold;
+}
+
+.button button:hover{
+    background-color: rgb(185, 173, 124);
+    cursor: pointer;
+}

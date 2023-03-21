@@ -1,0 +1,73 @@
+.containerCorreo{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+}
+
+.inputCorreo {
+    width: 100%;
+    text-align: center; 
+    padding: 0.25rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #3F979B;
+    border-radius: 5px;
+}
+
+.containerContraseña{
+    text-align: center;
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.25rem;
+}
+
+.inputContraseña{
+    width: 100%;
+    text-align: center; 
+    padding: 0.25rem;
+    border-style: solid;
+    border-width: 2px;
+    border-color:  #3F979B;
+    border-radius: 5px;
+}
+
+.containerButton{
+    text-align: center;
+    margin-bottom: 2.25rem;
+}
+
+.buttonForm{
+    width: 100%;
+    padding: 0.4rem;
+    margin-bottom: 0.75rem;
+    background-color:  #3F979B;
+    border: none;
+    color: aliceblue;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.buttonForm:hover{
+    background-color:  #4f6f70;
+}
+
+.containerRegistro{
+    text-decoration: none;
+    color: black;
+}
+
+.containerRegistro:hover{
+    font-weight: bold;
+    color: red;
+}
+
+.containerCorreo span{
+    font-size: 0.7rem;
+    color: red;
+}
+
+.containerContraseña span{
+    font-size: 0.7rem;
+    color: red;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:400,700");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  color: #272727;
+  font-family: "Quicksand", serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  min-height: 100vh;
+  background: linear-gradient(177.9deg, rgb(58, 62, 88) 3.6%, rgb(119, 127, 148) 105.8%);
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+html {
+  background-color: #ffecfd;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}

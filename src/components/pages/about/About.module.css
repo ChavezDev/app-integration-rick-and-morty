@@ -1,0 +1,36 @@
+.aboutPrincipal {
+    display: flex;
+    max-height: 100vh;
+}
+
+.aboutPrincipal h1 {
+  font-size: 40px;
+  color: rgb(233, 189, 21);
+}
+
+.aboutPrincipal p {
+  text-align: justify;
+}
+
+.divTexto {
+  color: beige;
+  margin: auto;
+  justify-items: center;
+  width: 60%;
+}
+
+.divImage {
+  width: 30%;
+  max-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 70px;
+  padding-top: 40px ;
+}
+.divImage img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}

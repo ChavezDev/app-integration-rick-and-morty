@@ -1,0 +1,6 @@
+.nav {
+  background-color: rgba(191, 172, 226, 0.1);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
