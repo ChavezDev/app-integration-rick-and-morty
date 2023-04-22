@@ -10,8 +10,18 @@
   
   .title{
       display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
       color: aliceblue;
   }
   
+  .filter{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .filter select{
+    margin: 10px;
+    border: none;
+  }

@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import { API_URL } from "../../../helpers/enpoints";
 import style from "./Detail.module.css";
+import { Link } from 'react-router-dom'
 
 function Detail() {
   const { id } = useParams();
@@ -35,7 +36,9 @@ function Detail() {
         {personaje.location&&<p>location: {personaje.location.name}</p>}
       </div>
       <div className={style.buttonDetail}>
-        <button>Add Favorite</button>
+      <Link to='/'>
+        <button>Retornar</button>
+      </Link>
       </div>
     </div>
   );

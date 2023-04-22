@@ -1,3 +1,3 @@
-const API_URL = ` https://rickandmortyapi.com/api`;
+const API_URL = ` http://localhost:3001/rickandmorty`;
 
 export { API_URL };

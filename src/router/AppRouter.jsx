@@ -3,6 +3,7 @@ import { Route, Routes } from "react-router";
 import Nav from "../components/organisms/nav/Nav";
 import About from "../components/pages/about/About";
 import Detail from "../components/pages/detail/Detail";
+import Error from "../components/pages/error/Error";
 import Favorite from "../components/pages/favorite/Favorite";
 import Gallery from "../components/pages/gallery/Gallery";
 import Home from "../components/pages/home/Home";
@@ -24,25 +25,13 @@ function AppRouter({
         <Route path="/login" exact element={<FormLogin loged={loged} />} />
         <Route element={<PrivateRouter login={login} />}>
           <Route path="/" element={<Nav onSearch={onSearch} logOut={logOut} />}>
-            <Route
-              index
-              exact
-              element={
-                <Home
-                  personajes={personajes}
-                  onClose={onClose}
-                  favorite={favorite}
-                />
-              }
-            />
+            <Route index exact element={ <Home personajes={personajes} onClose={onClose} favorite={favorite}/>}/>
             <Route path="/about" element={<About />} />
             <Route path="/gallery" element={<Gallery favorite={favorite} />} />
             <Route path="/detail/:id" element={<Detail />} />
-            <Route
-              path="/favorite"
-              element={<Favorite favorite={favorite} />}
-            />
+            <Route path="/favorite" element={<Favorite favorite={favorite} />}/>
           </Route>
+          <Route path="*" element={<Error/>}/>
         </Route>
       </Routes>
     </>
